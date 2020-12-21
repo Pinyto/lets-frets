@@ -2,7 +2,7 @@
 
 This repository contains the source code and 3D models of the paper "Let's Frets! Assisting Guitar Students During Practice via Capacitive Sensing".
 
-The software and the 3D models are licensed according to the GPLv3.
+The software and the 3D models are licensed according to the GPLv3 license.
 
 <!-- DOI: TODO -->
 
