@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Guitar Control</string>
+    <string name="ANG_EDIT_save_new">Als neuen Griff speichern</string>
+    <string name="ANG_EDIT_save_overwrite">Griff überschreiben</string>
+    <string name="ANG_attr_gripname">Griff Name</string>
+    <string name="ANG_dialog_main">Speichern</string>
+    <string name="ANG_dialog_text">Noch einen Griff hinzufügen</string>
+    <string name="ANG_drag_hint">Ziehen um Mehrere hinzuzufügen</string>
+    <string name="ANG_headline">Neuer Griff</string>
+    <string name="ANG_headline_edit">Griff Bearbeiten</string>
+    <string name="ANG_hint">Klicken Sie auf einen Bereich auf einer Linie um eine Position hinzuzufügen. Im Pop-Up kann man entscheiden welchen Finger</string>
+</resources>

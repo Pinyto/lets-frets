@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_ang_edit_save_as_new"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ANG_EDIT_save_new" />
+
+    <Button
+        android:id="@+id/btn_ang_edit_overwrite"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ANG_EDIT_save_overwrite" />
+
+    <Button
+        android:id="@+id/btn_ang_edit_abort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GENERIC_abort" />
+
+    <Button
+        android:id="@+id/btn_ang_edit_back"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GENERIC_back" />
+</LinearLayout>

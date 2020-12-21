@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BRS_headline">Remote Settings</string>
+    <string name="BRS_waiting">Waiting for data from Smart Guitar</string>
+    <string name="BRS_remote_apply">Apply on Guitar</string>
+    <string name="BRS_loading">Fetching data from Smart Guitar</string>
+    <string name="BRS_desc_top_installed">Top Part Installed</string>
+    <string name="BRS_desc_wait_ms">Switch Time</string>
+    <string name="BRS_desc_brightness">Brightness</string>
+    <string name="BRS_desc_colors">Finger Colors:</string>
+    <string name="BRS_change_color">Change Color</string>
+    <string name="BRS_power_off">Power Off Smart Guitar</string>
+    <string name="BRS_reboot">Reboot Smart Guitar</string>
+</resources>

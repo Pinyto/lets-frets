@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/finger_any"
+        android:id="@+id/menu_finger_any"/>
+    <item
+        android:title="@string/finger0"
+        android:id="@+id/menu_finger_thumb"/>
+    <item
+        android:title="@string/finger1"
+        android:id="@+id/menu_finger_index"/>
+    <item
+        android:title="@string/finger2"
+        android:id="@+id/menu_finger_middle"/>
+    <item
+        android:title="@string/finger3"
+        android:id="@+id/menu_finger_ring"/>
+    <item
+        android:title="@string/finger4"
+        android:id="@+id/menu_finger_pinky"/>
+
+    <item
+        android:id="@+id/menu_finger_remove"
+        android:title="@string/GENERIC_reset"/>
+</menu>

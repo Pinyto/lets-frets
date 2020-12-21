@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <PreferenceCategory
+        app:title="@string/pref_color_category_title"
+        app:icon="@android:drawable/ic_menu_edit">
+
+        <Preference
+            app:title="@string/finger0"
+            app:key="color_f0"
+            app:icon="@drawable/ambilwarna_arrow_right"
+            />
+        <Preference
+            app:title="@string/finger1"
+            app:key="color_f1"
+            app:icon="@drawable/ambilwarna_arrow_right"
+            />
+        <Preference
+            app:title="@string/finger2"
+            app:key="color_f2"
+            app:icon="@drawable/ambilwarna_arrow_right"
+            />
+        <Preference
+            app:title="@string/finger3"
+            app:key="color_f3"
+            app:icon="@drawable/ambilwarna_arrow_right"
+           />
+        <Preference
+            app:title="@string/finger4"
+            app:key="color_f4"
+            app:icon="@drawable/ambilwarna_arrow_right"
+            />
+        <Preference
+            app:title="@string/finger_any"
+            app:key="color_any"
+            app:icon="@drawable/ambilwarna_arrow_right"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

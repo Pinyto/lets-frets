@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_sG_category_title">Display Options for single Grips</string>
+    <string name="pref_sG_indicatorAtTab_title">Indicators at Tab End</string>
+    <string name="pref_sG_ind_nothing">Show Nothing</string>
+    <string name="pref_sG_ind_position">Show Position</string>
+    <string name="pref_sG_ind_finger">Show Finger Number</string>
+    <string name="pref_sG_ind_boolean">Show empty strings and disabled</string>
+    <string name="pref_sG_ind_onlyDisabled">Only show disabled</string>
+    <string-array name="pref_sG_indicatorAtTab_entries">
+        <item>@string/pref_sG_ind_nothing</item>
+        <item>@string/pref_sG_ind_position</item>
+        <item>@string/pref_sG_ind_finger</item>
+        <item>@string/pref_sG_ind_boolean</item>
+        <item>@string/pref_sG_ind_onlyDisabled</item>
+    </string-array>
+    <string-array name="pref_sG_indicatorAtTab_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_sG_anyFinger_title">Description when \'Any Finger\' is selected</string>
+    <string-array name="pref_sG_anyFinger_entries">
+        <item>No Text</item>
+        <item>\'0\'</item>
+        <item>\'-1\'</item>
+        <item>\'A\'</item>
+    </string-array>
+    <string-array name="pref_sG_anyFinger_values">
+        <item/>
+        <item>0</item>
+        <item>-1</item>
+        <item>A</item>
+    </string-array>
+    <string name="pref_sG_anyFinger_defaultValue">0</string>
+
+    <string name="pref_sG_indicatorPos_title">Indicators at Positions</string>
+    <string name="pref_sG_indPos_color">Show Colors Only</string>
+    <string name="pref_sG_indPos_colorAndFinger">Show Color and Finger Number</string>
+    <string name="pref_sG_indPos_black">Use only Black</string>
+    <string-array name="pref_sG_indicatorPos_entries">
+        <item>@string/pref_sG_indPos_color</item>
+        <item>@string/pref_sG_indPos_colorAndFinger</item>
+        <item>@string/pref_sG_indPos_black</item>
+    </string-array>
+    <string-array name="pref_sG_indicatorPos_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_sGauto_category_title">Automatic Actions</string>
+    <string name="pref_sGauto_addString_title">Strings-Auto-Activate</string>
+    <string name="pref_sGauto_addString_summary">As soon as a Position is placed the corresponding String should activate</string>
+    <string name="pref_sGauto_removeString_title">Strings-Auto-Disable</string>
+    <string name="pref_sGauto_removeString_summary">As soon as the last position on a String gets removed, deactivate it</string>
+    <string name="pref_sGauto_removePositions_title">Positions-Auto-Remove</string>
+    <string name="pref_sGauto_removePositions_summary">Remove all positions on string, on deactivation</string>
+
+    <string name="pref_color_category_title">Colors</string>
+    <string name="pref_color_title">Manage Colors</string>
+
+</resources>

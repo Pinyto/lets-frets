@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="de.tudarmstadt.tk.smartguitarcontrol">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".baseClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.SettingsActivity"></activity>
+        <activity android:name=".activities.TestActivity" />
+        <activity android:name=".activities.ManageGripActivity" />
+        <activity android:name=".activities.ExportAllActivity" />
+        <activity android:name=".activities.ImportGripActivity" />
+        <activity android:name=".activities.PrepareSequenceActivity" />
+        <activity android:name=".activities.RemoteConfigActivity" />
+        <activity android:name=".activities.TrainSingleActivity" />
+        <activity android:name=".activities.ListOfGripsActivity" />
+        <activity android:name=".activities.FeedbackActivity" />
+        <activity
+            android:name=".Devices"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/devices_headline"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.EditGripActivity" />
+    </application>
+
+</manifest>

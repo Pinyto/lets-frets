@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_headline">Export Grips</string>
+    <string name="export_go">Export</string>
+    <string name="export_choose_directory">Choose directory for export</string>
+    <string name="export_error_io">Could not write file, sorry!</string>
+    <string name="export_hint_directory_fail">Select a directory to store DB-Export</string>
+    <string name="export_error_nothing">There is nothing to store</string>
+</resources>

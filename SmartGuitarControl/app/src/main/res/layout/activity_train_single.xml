@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TrainSingleActivity">
+
+    <TextView
+        android:id="@+id/tsg_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickShowHint"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.tudarmstadt.tk.smartguitarcontrol.views.TabBoard
+        android:id="@+id/tsg_tabBoard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tsg_headline" />
+
+    <ProgressBar
+        android:id="@+id/tsg_progress_build"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/tsg_headline"
+        app:layout_constraintStart_toStartOf="@+id/tsg_headline"
+        app:layout_constraintTop_toBottomOf="@+id/tsg_headline" />
+
+    <ProgressBar
+        android:id="@+id/tsg_wait_signal"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_tsg_right"
+        app:layout_constraintStart_toEndOf="@+id/btn_tsg_right"
+        app:layout_constraintTop_toTopOf="@+id/btn_tsg_right" />
+
+    <Button
+        android:id="@+id/btn_tsg_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGoLeft"
+        android:text="@string/TSG_back"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tsg_headline"
+        app:layout_constraintEnd_toStartOf="@+id/tsg_headline" />
+
+    <Button
+        android:id="@+id/btn_tsg_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGoRight"
+        android:text="@string/TSG_next"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tsg_headline"
+        app:layout_constraintStart_toEndOf="@+id/tsg_headline" />
+
+    <ProgressBar
+        android:id="@+id/tsg_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_tsg_left"
+        app:layout_constraintEnd_toStartOf="@+id/btn_tsg_left" />
+
+    <TextView
+        android:id="@+id/txt_tsg_progress_state"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/tsg_progress"
+        app:layout_constraintEnd_toEndOf="@+id/tsg_progress"
+        app:layout_constraintStart_toStartOf="@+id/tsg_progress" />
+
+    <Button
+        android:id="@+id/btn_tsg_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:height="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="false"
+        android:text="@string/GENERIC_success"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tsg_progress_build" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

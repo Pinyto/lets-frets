@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ANG_headline">New Grip</string>
+    <string name="ANG_headline_edit">Edit Grip</string>
+    <string name="ANG_hint">Click on a section on line to add a position. Select which finger in pop-up.</string>
+    <string name="ANG_attr_gripname">Grip Name</string>
+    <string name="ANG_toast_positions_reset">All positions cleared</string>
+    <string name="ANG_toast_positions_reset_dismiss">There are no positions to clear</string>
+    <string name="ANG_toast_warning_no_strings">No strings selected, please set at least one</string>
+    <string name="ANG_toast_warning_no_position_to_remove">No position here</string>
+    <string name="ANG_dialog_main">Save Options</string>
+    <string name="ANG_dialog_text">Do you want to add another grip?</string>
+    <string name="ANG_menu_add_barre">Add barre at position&#8230;</string>
+    <string name="ANG_EDIT_save_new">Save grip as new</string>
+    <string name="ANG_EDIT_save_overwrite">Overwrite grip</string>
+    <string name="ANG_drag_hint">Drag to add multiple</string>
+    <string name="ANG_select_finger">Select which finger</string>
+    <string name="ANG_toggle_string_top_row">Toggle selected strings</string>
+</resources>

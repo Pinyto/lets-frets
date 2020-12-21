@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorIntensity1">#FFFF0000</color>
+    <color name="colorIntensity2">#FFFF8000</color>
+    <color name="colorIntensity3">#FFFFFF00</color>
+    <color name="colorIntensity4">#FF00FFBF</color>
+    <color name="colorDefault">#FFFFFFFF</color>
+    <color name="fretBase">#FFFFFFFF</color>
+    <color name="fingerAny">#5C5C5C</color>
+    <color name="fingerThumb">#FF5722</color>
+    <color name="fingerIndex">#8BC34A</color>
+    <color name="fingerMiddle">#00BCD4</color>
+    <color name="fingerRing">#3F51B5</color>
+    <color name="fingerPinky">#9C27B0</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

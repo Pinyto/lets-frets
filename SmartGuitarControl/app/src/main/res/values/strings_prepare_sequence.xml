@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PS_headline">Prepare Sequence of Grips</string>
+    <string name="PS_hint_empty">List empty, select grips through the "+"-menu</string>
+    <string name="PS_enable_feedback_title">Enable Feedback-Mode?</string>
+    <string name="PS_enable_feedback_text">When the Feedback-Mode is enabled the Smart-Guitar only continues to the next grip, when the correct spots are pressed.</string>
+    <string name="PS_feedback_option1">Automatic continue on feedback</string>
+    <string name="PS_feedback_option2">Feedback with manuel control</string>
+    <string name="PS_feedback_option3">Manuel control</string>
+    <string-array name="PS_feedback_options">
+        <item>@string/PS_feedback_option1</item>
+        <item>@string/PS_feedback_option2</item>
+        <item>@string/PS_feedback_option3</item>
+    </string-array>
+</resources>

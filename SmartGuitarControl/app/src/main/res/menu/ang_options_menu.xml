@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/GENERIC_reset"
+        android:id="@+id/menu_ang_reset"/>
+    <item
+        android:title="@string/ANG_menu_add_barre"
+        android:id="@+id/menu_ang_add_barre"/>
+
+</menu>

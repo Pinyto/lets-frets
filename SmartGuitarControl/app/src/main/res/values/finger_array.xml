@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingers">
+        <item>@string/finger0</item>
+        <item>@string/finger1</item>
+        <item>@string/finger2</item>
+        <item>@string/finger3</item>
+        <item>@string/finger4</item>
+        <item>@string/finger_any</item>
+        <item>@string/GENERIC_reset</item>
+    </string-array>
+    <string-array name="top_row_options">
+        <item>@string/GENERIC_enable</item>
+        <item>@string/GENERIC_disable</item>
+    </string-array>
+
+</resources>

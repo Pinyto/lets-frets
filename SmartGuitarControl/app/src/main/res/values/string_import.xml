@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_headline">Import Grips</string>
+    <string name="import_select_file">Select file &#8230;</string>
+    <string name="import_check_duplicates">Don\'t import duplicates</string>
+    <string name="import_skip_name_check">Skip name check</string>
+    <string name="import_no_file_selected">No file selected, sorry!</string>
+    <string name="import_error_io">Could not open file</string>
+    <string name="import_error_json">Could not read json file</string>
+    <string name="import_error_in_json">Error in json file</string>
+    <string name="import_added">added of</string>
+    <string name="import_no_grips">No Grips in file found</string>
+</resources>

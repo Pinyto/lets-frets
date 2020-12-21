@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TSG_error">An error occurred, no grip(s) seem selected. Please retry</string>
+    <string name="TSG_hint">Positions are ready to be hold</string>
+    <string name="TSG_next">Next</string>
+    <string name="TSG_back">Back</string>
+</resources>
